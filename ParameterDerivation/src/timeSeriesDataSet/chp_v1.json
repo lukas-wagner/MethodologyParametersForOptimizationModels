@@ -1,0 +1,547 @@
+[
+    {
+        "$type": "fpb:Project",
+        "name": "FPBJS_Project",
+        "targetNamespace": "http://www.hsu-ifa.de/fpbjs",
+        "entryPoint": "808506b6-b662-4a60-985d-0a6ffcd0f6e7"
+    },
+    {
+        "process": {
+            "$type": "fpb:Process",
+            "id": "808506b6-b662-4a60-985d-0a6ffcd0f6e7",
+            "elementsContainer": [
+                "a939178c-c740-415c-b432-dd071c2b2422",
+                "cadd342d-9741-4475-a97d-45d0402ac447",
+                "7dae3001-2359-4a1a-8931-da9d0544db6f",
+                "411f6ce2-2536-4439-bede-d2cbb2344a45",
+                "0f2f92d3-f106-4b2e-87a4-f96789206377"
+            ],
+            "isDecomposedProcessOperator": null,
+            "consistsOfStates": [
+                "27435bdf-685d-4bf4-bbac-f2128bbcf079",
+                "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9",
+                "b1f91a70-517d-4b68-801e-4a562189541f",
+                "be5c79c7-84ea-4ec8-9046-74d30689e321"
+            ],
+            "consistsOfSystemLimit": "7dae3001-2359-4a1a-8931-da9d0544db6f",
+            "consistsOfProcesses": [],
+            "consistsOfProcessOperator": [
+                "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                "8b756d6a-8b02-4377-afc6-5909f1309f41"
+            ]
+        },
+        "elementDataInformation": [
+            {
+                "$type": "fpb:TechnicalResource",
+                "id": "a939178c-c740-415c-b432-dd071c2b2422",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "a939178c-c740-415c-b432-dd071c2b2422",
+                    "longName": "gasfired_generator",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "57203328-d22e-4ef3-95ae-7a0c7261aa34"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "411f6ce2-2536-4439-bede-d2cbb2344a45"
+                ],
+                "characteristics": []
+            },
+            {
+                "$type": "fpb:TechnicalResource",
+                "id": "cadd342d-9741-4475-a97d-45d0402ac447",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "cadd342d-9741-4475-a97d-45d0402ac447",
+                    "longName": "heat_exchanger",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "8b756d6a-8b02-4377-afc6-5909f1309f41"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "0f2f92d3-f106-4b2e-87a4-f96789206377"
+                ],
+                "characteristics": []
+            },
+            {
+                "$type": "fpb:SystemLimit",
+                "id": "7dae3001-2359-4a1a-8931-da9d0544db6f",
+                "elementsContainer": [
+                    "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                    "8b756d6a-8b02-4377-afc6-5909f1309f41",
+                    "27435bdf-685d-4bf4-bbac-f2128bbcf079",
+                    "b1f91a70-517d-4b68-801e-4a562189541f",
+                    "be5c79c7-84ea-4ec8-9046-74d30689e321",
+                    "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9",
+                    "f90a7d91-a567-4d3d-814b-79e886857191",
+                    "98d01a87-2e89-41bb-b9c1-46734c2e5400",
+                    "994cd524-7e95-4a76-abb5-0d5be8d36b5f",
+                    "a3bc51cc-c242-41a4-9412-6e8d7995cb56",
+                    "2fa2954d-d9d1-45a6-96b1-926092c052fe"
+                ]
+            },
+            {
+                "$type": "fpb:Usage",
+                "id": "411f6ce2-2536-4439-bede-d2cbb2344a45",
+                "sourceRef": "a939178c-c740-415c-b432-dd071c2b2422",
+                "targetRef": "57203328-d22e-4ef3-95ae-7a0c7261aa34"
+            },
+            {
+                "$type": "fpb:Usage",
+                "id": "0f2f92d3-f106-4b2e-87a4-f96789206377",
+                "sourceRef": "cadd342d-9741-4475-a97d-45d0402ac447",
+                "targetRef": "8b756d6a-8b02-4377-afc6-5909f1309f41"
+            },
+            {
+                "$type": "fpb:ProcessOperator",
+                "id": "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                    "longName": "",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "a939178c-c740-415c-b432-dd071c2b2422"
+                ],
+                "incoming": [
+                    "2fa2954d-d9d1-45a6-96b1-926092c052fe",
+                    "411f6ce2-2536-4439-bede-d2cbb2344a45"
+                ],
+                "outgoing": [
+                    "f90a7d91-a567-4d3d-814b-79e886857191",
+                    "a3bc51cc-c242-41a4-9412-6e8d7995cb56"
+                ]
+            },
+            {
+                "$type": "fpb:ProcessOperator",
+                "id": "8b756d6a-8b02-4377-afc6-5909f1309f41",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "8b756d6a-8b02-4377-afc6-5909f1309f41",
+                    "longName": "",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "cadd342d-9741-4475-a97d-45d0402ac447"
+                ],
+                "incoming": [
+                    "98d01a87-2e89-41bb-b9c1-46734c2e5400",
+                    "0f2f92d3-f106-4b2e-87a4-f96789206377"
+                ],
+                "outgoing": [
+                    "994cd524-7e95-4a76-abb5-0d5be8d36b5f"
+                ]
+            },
+            {
+                "$type": "fpb:Energy",
+                "id": "27435bdf-685d-4bf4-bbac-f2128bbcf079",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "27435bdf-685d-4bf4-bbac-f2128bbcf079",
+                    "longName": "",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "57203328-d22e-4ef3-95ae-7a0c7261aa34"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "2fa2954d-d9d1-45a6-96b1-926092c052fe"
+                ]
+            },
+            {
+                "$type": "fpb:Energy",
+                "id": "b1f91a70-517d-4b68-801e-4a562189541f",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "b1f91a70-517d-4b68-801e-4a562189541f",
+                    "longName": "",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "57203328-d22e-4ef3-95ae-7a0c7261aa34"
+                ],
+                "incoming": [
+                    "a3bc51cc-c242-41a4-9412-6e8d7995cb56"
+                ],
+                "outgoing": []
+            },
+            {
+                "$type": "fpb:Energy",
+                "id": "be5c79c7-84ea-4ec8-9046-74d30689e321",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "be5c79c7-84ea-4ec8-9046-74d30689e321",
+                    "longName": "",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "8b756d6a-8b02-4377-afc6-5909f1309f41"
+                ],
+                "incoming": [
+                    "994cd524-7e95-4a76-abb5-0d5be8d36b5f"
+                ],
+                "outgoing": []
+            },
+            {
+                "$type": "fpb:Energy",
+                "id": "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9",
+                    "longName": "",
+                    "shortName": "",
+                    "versionNumber": "",
+                    "revisionNumber": ""
+                },
+                "isAssignedTo": [
+                    "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                    "8b756d6a-8b02-4377-afc6-5909f1309f41"
+                ],
+                "incoming": [
+                    "f90a7d91-a567-4d3d-814b-79e886857191"
+                ],
+                "outgoing": [
+                    "98d01a87-2e89-41bb-b9c1-46734c2e5400"
+                ]
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "f90a7d91-a567-4d3d-814b-79e886857191",
+                "sourceRef": "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                "targetRef": "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "98d01a87-2e89-41bb-b9c1-46734c2e5400",
+                "sourceRef": "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9",
+                "targetRef": "8b756d6a-8b02-4377-afc6-5909f1309f41"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "994cd524-7e95-4a76-abb5-0d5be8d36b5f",
+                "sourceRef": "8b756d6a-8b02-4377-afc6-5909f1309f41",
+                "targetRef": "be5c79c7-84ea-4ec8-9046-74d30689e321"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "a3bc51cc-c242-41a4-9412-6e8d7995cb56",
+                "sourceRef": "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                "targetRef": "b1f91a70-517d-4b68-801e-4a562189541f"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "2fa2954d-d9d1-45a6-96b1-926092c052fe",
+                "sourceRef": "27435bdf-685d-4bf4-bbac-f2128bbcf079",
+                "targetRef": "57203328-d22e-4ef3-95ae-7a0c7261aa34"
+            }
+        ],
+        "elementVisualInformation": [
+            {
+                "id": "a939178c-c740-415c-b432-dd071c2b2422",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:TechnicalResource",
+                "x": 1651,
+                "y": 378
+            },
+            {
+                "id": "cadd342d-9741-4475-a97d-45d0402ac447",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:TechnicalResource",
+                "x": 1657,
+                "y": 626
+            },
+            {
+                "id": "7dae3001-2359-4a1a-8931-da9d0544db6f",
+                "width": 650,
+                "height": 700,
+                "type": "fpb:SystemLimit",
+                "x": 911,
+                "y": 271
+            },
+            {
+                "id": "411f6ce2-2536-4439-bede-d2cbb2344a45",
+                "type": "fpb:Usage",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1651,
+                            "y": 418
+                        },
+                        "x": 1651,
+                        "y": 418
+                    },
+                    {
+                        "x": 1496,
+                        "y": 418
+                    },
+                    {
+                        "x": 1496,
+                        "y": 456
+                    },
+                    {
+                        "original": {
+                            "x": 1340,
+                            "y": 456
+                        },
+                        "x": 1340,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "id": "0f2f92d3-f106-4b2e-87a4-f96789206377",
+                "type": "fpb:Usage",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1657,
+                            "y": 666
+                        },
+                        "x": 1657,
+                        "y": 666
+                    },
+                    {
+                        "x": 1494,
+                        "y": 666
+                    },
+                    {
+                        "x": 1494,
+                        "y": 670
+                    },
+                    {
+                        "original": {
+                            "x": 1331,
+                            "y": 670
+                        },
+                        "x": 1331,
+                        "y": 670
+                    }
+                ]
+            },
+            {
+                "id": "57203328-d22e-4ef3-95ae-7a0c7261aa34",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:ProcessOperator",
+                "x": 1190,
+                "y": 416
+            },
+            {
+                "id": "8b756d6a-8b02-4377-afc6-5909f1309f41",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:ProcessOperator",
+                "x": 1181,
+                "y": 630
+            },
+            {
+                "id": "27435bdf-685d-4bf4-bbac-f2128bbcf079",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Energy",
+                "x": 1093,
+                "y": 249
+            },
+            {
+                "id": "b1f91a70-517d-4b68-801e-4a562189541f",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Energy",
+                "x": 1009,
+                "y": 940
+            },
+            {
+                "id": "be5c79c7-84ea-4ec8-9046-74d30689e321",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Energy",
+                "x": 1261,
+                "y": 947
+            },
+            {
+                "id": "b0d619d5-3c43-4cbb-a90b-ded6085e5ce9",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Energy",
+                "x": 1200,
+                "y": 548
+            },
+            {
+                "id": "f90a7d91-a567-4d3d-814b-79e886857191",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1265,
+                            "y": 496
+                        },
+                        "x": 1265,
+                        "y": 496
+                    },
+                    {
+                        "x": 1265,
+                        "y": 522
+                    },
+                    {
+                        "x": 1225,
+                        "y": 522
+                    },
+                    {
+                        "original": {
+                            "x": 1225,
+                            "y": 548
+                        },
+                        "x": 1225,
+                        "y": 548
+                    }
+                ]
+            },
+            {
+                "id": "98d01a87-2e89-41bb-b9c1-46734c2e5400",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1225,
+                            "y": 598
+                        },
+                        "x": 1225,
+                        "y": 598
+                    },
+                    {
+                        "x": 1225,
+                        "y": 614
+                    },
+                    {
+                        "x": 1256,
+                        "y": 614
+                    },
+                    {
+                        "original": {
+                            "x": 1256,
+                            "y": 630
+                        },
+                        "x": 1256,
+                        "y": 630
+                    }
+                ]
+            },
+            {
+                "id": "994cd524-7e95-4a76-abb5-0d5be8d36b5f",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1256,
+                            "y": 710
+                        },
+                        "x": 1256,
+                        "y": 710
+                    },
+                    {
+                        "x": 1256,
+                        "y": 829
+                    },
+                    {
+                        "x": 1286,
+                        "y": 829
+                    },
+                    {
+                        "original": {
+                            "x": 1286,
+                            "y": 947
+                        },
+                        "x": 1286,
+                        "y": 947
+                    }
+                ]
+            },
+            {
+                "id": "a3bc51cc-c242-41a4-9412-6e8d7995cb56",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1265,
+                            "y": 496
+                        },
+                        "x": 1265,
+                        "y": 496
+                    },
+                    {
+                        "x": 1077,
+                        "y": 517
+                    },
+                    {
+                        "x": 1051,
+                        "y": 583
+                    },
+                    {
+                        "x": 1034,
+                        "y": 718
+                    },
+                    {
+                        "original": {
+                            "x": 1034,
+                            "y": 940
+                        },
+                        "x": 1034,
+                        "y": 940
+                    }
+                ]
+            },
+            {
+                "id": "2fa2954d-d9d1-45a6-96b1-926092c052fe",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1118,
+                            "y": 299
+                        },
+                        "x": 1118,
+                        "y": 299
+                    },
+                    {
+                        "x": 1118,
+                        "y": 358
+                    },
+                    {
+                        "x": 1265,
+                        "y": 358
+                    },
+                    {
+                        "original": {
+                            "x": 1265,
+                            "y": 416
+                        },
+                        "x": 1265,
+                        "y": 416
+                    }
+                ]
+            }
+        ]
+    }
+]

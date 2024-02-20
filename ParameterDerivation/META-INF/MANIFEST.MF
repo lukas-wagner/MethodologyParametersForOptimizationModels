@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ParameterDerivation
+Bundle-SymbolicName: ParameterDerivation
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ParameterDerivation
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: designpatterns,
+ org.hyperledger.acy_py.generated.model
+Require-Bundle: DesignPatterns;bundle-version="1.0.0"
